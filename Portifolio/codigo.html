@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Alterado para 1.0 -->
+    <link rel="stylesheet" href="style.css">
+    <title>Meus Códigos</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="quemsou.html">Quem Sou</a></li>
+            <li><a href="projetos.html">Meus Projetos</a></li>
+            <li><a href="codigo.html">Meus Códigos</a></li>
+            <li><a href="certificados.html">Meus Certificados</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <h1>Meus Códigos</h1>
+
+    <div class="codigo-snippet">
+        <h2>Utilizando Python, usei Web Scraping para remover informações do TSE e gerar Insights curiosos sobre as eleições municipais de 2024.</h2>
+    </div>
+
+    <div class="galeria-imagens">
+        <h2>Dashboards São Paulo:</h2>
+        <div class="imagens">
+            <img src="imagens/SP1.png" alt="Imagem 1 gerada pelo código" onclick="openModal(this)">
+            <img src="imagens/SP2.png" alt="Imagem 2 gerada pelo código" onclick="openModal(this)">
+            <img src="imagens/SP3.png" alt="Imagem 3 gerada pelo código" onclick="openModal(this)">
+            <img src="imagens/SP4.png" alt="Imagem 4 gerada pelo código" onclick="openModal(this)">
+        </div>
+    </div>
+
+    <div class="download-excel">
+        <h2>Download Excel - SP</h2>
+        <a href="xlsx/PrefSP.xlsx" download>Baixar Arquivo Excel</a>
+    </div>
+
+    <div class="download-txt">
+        <h2>Download do Código em TXT - SP</h2>
+        <a href="txt/CandidatosSP1Turno.txt" target="_blank">Abrir Arquivo TXT</a>
+    </div>
+
+    <hr>
+    <h2>_______________________________________________________________________________________________</h2>
+    <div class="galeria-imagens">
+        <h2>Dashboards Rio de Janeiro:</h2>
+        <div class="imagens">
+            <img src="imagens/RJ1.jpg" alt="Imagem 1 gerada pelo código do Rio de Janeiro" onclick="openModal(this)">
+            <img src="imagens/RJ2.jpg" alt="Imagem 2 gerada pelo código do Rio de Janeiro" onclick="openModal(this)">
+            <img src="imagens/RJ3.jpg" alt="Imagem 3 gerada pelo código do Rio de Janeiro" onclick="openModal(this)">
+            <img src="imagens/RJ4.jpg" alt="Imagem 4 gerada pelo código do Rio de Janeiro" onclick="openModal(this)">
+        </div>
+    </div>
+
+    <div class="download-excel">
+        <h2>Download Excel - RJ</h2>
+        <a href="xlsx/PREFRJ.xlsx" target="_blank">Abrir Arquivo TXT</a>
+    </div>
+
+    <div class="download-txt">
+        <h2>Download do Código em TXT - RJ</h2>
+        <a href="txt/CandidatosRJ1turno.txt" target="_blank">Abrir Arquivo TXT</a>
+    </div>
+
+    <hr>
+    <h2>_______________________________________________________________________________________________</h2>
+    <div class="galeria-imagens">
+        <h2>Dashboards Belo Horizonte:</h2>
+        <div class="imagens">
+            <img src="imagens/BH1.jpg" alt="Imagem 1 gerada pelo código de Belo Horizonte" onclick="openModal(this)">
+            <img src="imagens/BH2.jpg" alt="Imagem 2 gerada pelo código de Belo Horizonte" onclick="openModal(this)">
+            <img src="imagens/BH3.jpg" alt="Imagem 3 gerada pelo código de Belo Horizonte" onclick="openModal(this)">
+            <img src="imagens/BH4.jpg" alt="Imagem 4 gerada pelo código de Belo Horizonte" onclick="openModal(this)">
+        </div>
+    </div>
+
+    <div class="download-excel">
+        <h2>Download Excel - BH</h2>
+        <a href="xlsx/PREFBH.xlsx" download>Baixar Arquivo Excel</a>
+    </div>
+
+    <div class="download-txt">
+        <h2>Download do Código em TXT - BH</h2>
+        <a href="txt/CandidatosBH1turno.txt" download>Baixar Arquivo TXT</a>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
